@@ -62,11 +62,10 @@ const CreateCoverPage = () => {
                 <div className="h-14 w-14 bg-yellow-200 rounded-full flex flex-shrink-0 justify-center items-center text-yellow-500 text-2xl font-mono">
                   <IoInformation className="text-black text-3xl" />
                 </div>
-                <div className="block pl-2 font-semibold text-xl self-start text-gray-700">
-                  <h2 className="leading-relaxed">
-                    Create your cover page first
-                  </h2>
-                </div>
+
+                <h2 className="text-2xl font-semibold text-gray-700">
+                  Create your cover page first
+                </h2>
               </div>
 
               <form onSubmit={handleCreateCoverPage}>
