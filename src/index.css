@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.active {
+  background: #fff78a;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+.jodit-toolbar-editor-collection
+  .jodit-toolbar-button[aria-label="Insert className"] {
+  display: none;
+}
+.jodit-toolbar-editor-collection
+  .jodit-toolbar-button[aria-label="About Jodit"] {
+  display: none;
+}
+.jodit-toolbar-editor-collection
+  .jodit-toolbar-button[aria-label="Change mode"] {
+  display: none;
+}
+.jodit-status-bar-link {
+  display: none;
+}
